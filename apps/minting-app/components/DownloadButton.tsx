@@ -2,7 +2,7 @@ import { useState } from "react";
 import { transformForRendering, useAppContext } from "../state";
 import IconButton from "./IconButton";
 import useSeed from "./useSeed";
-const template = require("../../../svg/template.svg.hbs");
+const template = require("../svg/template.svg.hbs");
 
 export const FullDownloadButton = createDownloadButton({
   icon: "FullDownload",

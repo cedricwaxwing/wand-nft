@@ -18,7 +18,7 @@ const nextConfig = {
         {
           loader: "handlebars-loader",
           options: {
-            partialDirs: [path.join(__dirname, "..", "..", "svg", "partials")],
+            partialDirs: [path.join(__dirname, "svg", "partials")],
             helperResolver(helper, callback) {
               if (helper.startsWith("./uint") || helper.startsWith("./int")) {
                 callback(
